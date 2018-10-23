@@ -1,0 +1,16 @@
+.center {
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+}
+
+.scroll-box {
+	background-color: rgba(255,255,255,0.1);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow-y: scroll;
+	border: 1px solid black;
+	height: 400px;
+	width: 400px;
+}
